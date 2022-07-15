@@ -4,5 +4,8 @@
         "slim/slim": "^3.5",
         "slim/php-view": "^2.0",
         "monolog/monolog": "^1.17"
+    },
+    "require-dev": {
+        "vimeo/psalm": "^4.24"
     }
 }

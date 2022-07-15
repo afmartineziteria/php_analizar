@@ -14,7 +14,7 @@ $container = $app->getContainer();
 $container['view'] = new \Slim\Views\PhpRenderer("../templates/");
 
 // Set up dependencies
-require __DIR__ . '/../src/dependencies.php';
+require __DIR__ . '/../src/dependenciess.php';
 
 // Register routes
 require __DIR__ . '/../src/routes.php';
